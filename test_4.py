@@ -3,10 +3,7 @@ import pandas as pd
 import numpy as np
 import os
 import joblib
-	species
-152	versicolor-new
-153	setosa-new
-154	virginica-new
+
 DATA_PATH = 'data/iris.csv'
 ARTIFACTS_DIR = 'artifacts'
 MODEL_PATH = os.path.join(ARTIFACTS_DIR, 'model.joblib')
