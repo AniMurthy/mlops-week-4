@@ -7,7 +7,7 @@ import joblib
 DATA_PATH = 'data/iris.csv'
 ARTIFACTS_DIR = 'artifacts'
 MODEL_PATH = os.path.join(ARTIFACTS_DIR, 'model.joblib')
-EXPECTED_CLASSES = ['setosa', 'versicolor', 'virginica']
+EXPECTED_CLASSES = ['setosa', 'versicolor', 'virginica','virginica-new','setosa-new','versicolor-new','hybrida-new']
 
 #Data Validation
 def test_data_validation():
