@@ -42,13 +42,13 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Create a report in Markdown format
-          echo "## 🤖 Model Sanity Test Report" > report.md
-          echo "### 📊 Metrics from Training" >> report.md
+          echo "## Model Sanity Test Report" > report.md
+          echo "### Metrics from Training" >> report.md
           echo "\`\`\`" >> report.md
           cat artifacts/metrics.txt >> report.md
           echo "\`\`\`" >> report.md
 
-          echo "### 🧪 Pytest Output" >> report.md
+          echo "### Pytest Output" >> report.md
           echo "\`\`\`" >> report.md
           cat test_output.txt >> report.md
           echo "\`\`\`" >> report.md
